@@ -1,6 +1,7 @@
+import pandas as pd
 class Data_Cleaning:
     def readFile():
-     df = pd.read_csv("E:/1.Eathans/Ethans/Data/Airline/Airline1.csv")
+     df = pd.read_csv("C:/Users/NATESH GHUGE/OneDrive/Desktop/Machine learning/Data/Airline1.csv")
      return df
 
     def Handel_Missing(df):

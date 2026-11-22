@@ -1,0 +1,40 @@
+-----------------------------------------------------
+git add README.md
+git commit -m "first commit"
+git branch -M main
+
+
+-----------------------------------------------------
+git init
+git remote add origin your_Repo_Name
+git pull origin main
+
+git add .
+git commit -m "Fi Commit"
+git branch -M main
+git push -u origin main
+
+
+--------------------------------------------------------------
+create ENV
+  pip install virtualenv
+  virtualenv -p python3 myEnv_01
+  myEnv_01\Scripts\activate
+
+
+project
+- Local ENV
+- STEPS
+  - Training pipeline
+    - S0_Training_ppln.py
+    - s1_DataCleaning.py
+    - Transformatoin(catetorical data to Number) DONE (Create Obj and run it on S0_Training_ppln)
+    - Training(Actaul Traing) 
+  - Prediction pipeline
+
+
+
+git rm -r --cached Airtifacts
+git add .gitignore
+git commit -m "Ignore Artifacts folder"
+git push
